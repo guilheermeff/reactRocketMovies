@@ -18,10 +18,9 @@ export const Form = styled.form`
   width: 100%;
   max-width: 34.0rem;
   margin: auto;
-  
+
   > div:nth-child(1) {
     text-align: left;
-    margin-bottom: 4.8rem;
 
     h1 {
       color: ${({ theme }) => theme.COLORS.PINK};
@@ -34,11 +33,11 @@ export const Form = styled.form`
     }
   }
 
-  > span {
+  > p {
     font-size: 2.4rem;
     color: #FFFFFF;
 
-    margin-bottom: 4.8rem;
+    margin-block: 4.8rem;
   }
 `;
 

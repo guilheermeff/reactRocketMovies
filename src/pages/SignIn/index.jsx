@@ -12,7 +12,7 @@ export function SignIn() {
           <p>Aplicação para acompanhar tudo que assistir.</p>
         </div>
 
-        <span>Faça seu login</span>
+        <p>Faça seu login</p>
 
         <Input
           icon={FiMail}
