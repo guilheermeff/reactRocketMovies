@@ -26,6 +26,8 @@ export function SignIn() {
           type="password"
           placeholder="Senha"
         />
+
+        <Button title="Entrar" />
       </Form>
       <Background />
     </Container>
