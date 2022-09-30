@@ -10,9 +10,5 @@ export default {
     WHITE_200: 'hsl(25, 35%, 93%)',
 
     GRAY: 'hsl(270, 5%, 58%)'
-  },
-
-  FONTS: {
-    FONT_GENERAL: 'Roboto Slab', serif
   }
 }

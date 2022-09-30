@@ -8,8 +8,12 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
+  :root {
+    font-size: 62.5%; /* 10px */
+  }
 
+  body {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_100};
   }
 
   a {
