@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  max-width: 133.6rem;
   height: 11.6rem;
 
   margin: 0 auto;
@@ -10,6 +9,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  border-bottom: 0.5px solid ${({ theme }) => theme.COLORS.GRAY};
 
   > h1 {
     font-size: 2.4rem;
@@ -23,7 +24,7 @@ export const Container = styled.div`
     max-width: 63.0rem;
     padding: 1.9rem 2.4rem;
 
-    margin-inline: 6.4rem;
+    margin-left: 6.4rem;
 
     border: 0;
     border-radius: 1.0rem;
@@ -58,6 +59,7 @@ export const Profile = styled.div`
   > div {
 
     text-align: right;
+    width: 19.8rem;
 
     strong {
       color: ${({ theme }) => theme.COLORS.WHITE_200};
