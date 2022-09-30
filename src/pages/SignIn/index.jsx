@@ -1,9 +1,16 @@
-import { Container, Background } from './styles';
+import { Container, Form, Background } from './styles';
 
 export function SignIn() {
   return(
     <Container>
-      <h1>hello world!</h1>
+      <Form>
+        <div>
+          <h1>RocketMovies</h1>
+          <p>Aplicação para acompanhar tudo que assistir.</p>
+        </div>
+
+        <span>Faça seu login</span>
+      </Form>
       <Background />
     </Container>
   )

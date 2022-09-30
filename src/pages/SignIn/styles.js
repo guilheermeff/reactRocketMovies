@@ -11,6 +11,33 @@ export const Container = styled.div`
     "login"
     "background"
   ;
+
+  `;
+
+export const Form = styled.form`
+  width: 100%;
+  max-width: 34.0rem;
+  margin: auto;
+  
+  > div {
+    margin-bottom: 4.8rem;
+    text-align: left;
+    
+    h1 {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-size: 4.8rem;
+    }
+    
+    p {
+      color: ${({ theme }) => theme.COLORS.WHITE_100};
+      font-size: 1.4rem;
+    }
+  }
+
+  > span {
+    color: ${({ theme }) => theme.COLORS.WHITE_200};
+    font-size: 2.4rem;
+  }
 `;
 
 export const Background = styled.div`
