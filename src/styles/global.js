@@ -13,7 +13,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color:   background-color: ${({ theme }) => theme.COLORS.DARK};
+    background-color: ${({ theme }) => theme.COLORS.DARK};
 
     font-family: 'Roboto Slab', serif;
   }
