@@ -1,4 +1,7 @@
 import { Container, Form, Background } from './styles';
+import { Input } from '../../components/Input';
+import { FiMail, FiLock } from 'react-icons/fi'
+
 
 export function SignIn() {
   return(
@@ -10,6 +13,12 @@ export function SignIn() {
         </div>
 
         <span>Faça seu login</span>
+
+        <Input
+          icon={FiMail}
+          type="email"
+          placeholder="E-mail"
+        />
       </Form>
       <Background />
     </Container>

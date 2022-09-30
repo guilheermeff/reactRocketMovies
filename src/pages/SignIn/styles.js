@@ -4,7 +4,7 @@ import backgroundImg from '../../assets/imagem-sala-de-cinema.png'
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  
+    
   display: grid;
   grid-template-columns: 62.5rem auto;
   grid-template-areas: 
