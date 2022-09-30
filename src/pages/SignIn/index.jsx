@@ -19,6 +19,12 @@ export function SignIn() {
           type="email"
           placeholder="E-mail"
         />
+
+        <Input 
+          icon={FiLock}
+          type="password"
+          placeholder="Senha"
+        />
       </Form>
       <Background />
     </Container>
