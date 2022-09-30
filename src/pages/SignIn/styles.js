@@ -12,7 +12,7 @@ export const Container = styled.div`
     "background"
   ;
 
-  `;
+`;
 
 export const Form = styled.form`
   width: 100%;
@@ -38,6 +38,28 @@ export const Form = styled.form`
     color: #FFFFFF;
 
     margin-block: 4.8rem;
+  }
+`;
+
+export const Return = styled.div`
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
+  margin-top: 4.5rem;
+
+  > svg {
+    font-size: 3.2rem;
+
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
+
+  > a {
+    font-size: 1.6rem;
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 `;
 
