@@ -11,6 +11,7 @@ export default {
     WHITE_100: 'hsl(273, 10%, 79%)',
     WHITE_200: 'hsl(25, 35%, 93%)',
 
-    GRAY: 'hsl(270, 5%, 58%)'
+    GRAY: 'hsl(270, 5%, 58%)',
+    GRAY_100: 'hsl(30, 4%, 58%)'
   }
 }
