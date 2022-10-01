@@ -2,6 +2,7 @@ export default {
   COLORS: {
     BACKGROUND_100: 'hsl(255, 5%, 15%)',
     BACKGROUND_200: 'hsl(255, 5%, 15%)',
+    BACKGROUND_PINK: 'hsla(349, 100%, 76%, 0.05)',
     BACKGROUND_FRAME: 'hsl(258, 10%, 20%)',
 
     PINK: 'hsl(349, 100%, 76%)',
