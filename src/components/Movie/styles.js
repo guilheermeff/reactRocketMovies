@@ -19,7 +19,6 @@ export const Container = styled.div`
       font-weight: 700;
       line-height: 3.2rem;
       text-align: left;
-      margin-bottom: 0.8rem;
     }
   }
 
@@ -41,3 +40,4 @@ export const Container = styled.div`
     }
   }
 `;
+

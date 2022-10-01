@@ -31,4 +31,19 @@ export default createGlobalStyle`
     filter: brightness(0.2);
   }
 
+  ::-webkit-scrollbar {
+    width: .8rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    width: 1.6rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({theme }) => theme.COLORS.PINK};
+    border-radius: .8rem;
+    border: none;
+  }
+
 `;

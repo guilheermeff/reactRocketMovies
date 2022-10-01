@@ -12,6 +12,4 @@ export const Container = styled.button`
 
   background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_FRAME};
-
-  margin-top: 1.6rem;
 `;
