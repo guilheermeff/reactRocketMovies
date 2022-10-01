@@ -6,7 +6,6 @@ export function Home() {
     <Container>
       <Header />
 
-      
     </Container>
   )
 }
