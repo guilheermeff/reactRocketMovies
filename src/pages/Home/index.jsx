@@ -10,7 +10,6 @@ export function Home() {
       <Header />
 
       <Main>
-
         <header>
           <h1>Meus filmes</h1>
           <Button title="Adicionar filme" />
