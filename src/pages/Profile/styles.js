@@ -3,13 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-rows: 14.4rem auto;
-  grid-template-areas: 
-    "header"
-    "form"
-  ;
 
   > header {
-    grid-area: 'header';
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_PINK};
 
@@ -30,5 +25,15 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
+  width: 34.0rem;
 
+  margin: 0 auto;
+
+  div:nth-child(3) {
+    margin-bottom: 1.6rem;
+  }
+
+  button {
+    margin-top: 1.6rem;
+  }
 `;

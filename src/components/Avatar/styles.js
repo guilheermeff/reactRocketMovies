@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  position: relative;
-	margin: -124px auto 32px;
-	
+export const Container = styled.div`	
 	width: 186px;
 	height: 186px;
 
-	> img {
+	position: relative;
+	margin: -86px auto 32px;
+
+	> img {  
 		border-radius: 50%;
 
 		width: 186px;
