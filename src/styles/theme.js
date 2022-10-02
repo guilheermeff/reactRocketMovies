@@ -8,6 +8,7 @@ export default {
     PINK: 'hsl(349, 100%, 76%)',
 
     DARK: 'hsl(260, 5%, 11%)',
+    DARK_100: 'hsl(260, 11%, 5%)',
 
     WHITE_100: 'hsl(273, 10%, 79%)',
     WHITE_200: 'hsl(25, 35%, 93%)',

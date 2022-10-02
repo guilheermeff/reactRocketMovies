@@ -12,6 +12,8 @@ export const Container = styled.div`
 
   border-bottom: 0.5px solid ${({ theme }) => theme.COLORS.GRAY};
 
+  grid-area: "header";
+
   > h1 {
     font-size: 2.4rem;
     color: ${({ theme }) => theme.COLORS.PINK};
