@@ -26,6 +26,30 @@ export const Content = styled.main`
       font-size: 3.2rem;
       font-weight: 400;
       color: ${({ theme }) => theme.COLORS.WHITE_200};
+      margin-bottom: 4.0rem;
+    }
+
+    > div {
+      display: flex;
+      gap: 4.0rem;
+
+      margin-bottom: 3.2rem;
+      
+      input {
+        padding-left: 2.0rem;
+      }
+    }
+
+    > section {
+
+      h2 {
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
+        font-size: 2.0rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+
+        text-align: left;
+      }
     }
   }
 `;
