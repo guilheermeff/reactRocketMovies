@@ -4,21 +4,23 @@ export const Container = styled.div`
   width: 100%;
   height: 11.6rem;
 
-  margin: 0 auto;
+  border-bottom: 0.5px solid ${({ theme }) => theme.COLORS.GRAY};
 
+  grid-area: "header";
+`;
+
+export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  border-bottom: 0.5px solid ${({ theme }) => theme.COLORS.GRAY};
-
-  grid-area: "header";
+  height: 100%;
+  max-width: 113.7rem;
+  margin: 0 auto;
 
   > h1 {
     font-size: 2.4rem;
     color: ${({ theme }) => theme.COLORS.PINK};
-
-    margin-left: 12.3rem;
   }
 
   > input {
@@ -51,8 +53,6 @@ export const Profile = styled.div`
   display: flex;
   align-items: center;
   gap: 1.0rem;
-
-  margin-right: 12.3rem;
 
   > img {
     width: 6.4rem;
