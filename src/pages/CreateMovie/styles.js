@@ -5,24 +5,14 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
+  overflow: hidden;
+
   display: grid;
   grid-template-rows: 11.6rem auto;
   grid-template-areas: 
     "header"
     "content"
   ;
-
-  a {
-    margin-top: 4.0rem;
-    margin-bottom: 2.4rem;
-    margin-left: 12.3rem;
-    font-size: 1.6rem;
-    color: ${({ theme }) => theme.COLORS.PINK};
-
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-  }
 
   footer {
     display: flex;
@@ -37,14 +27,25 @@ export const Container = styled.div`
 
 export const Content = styled.main`
   width: 100%;
-  height: 100vh;
+  max-height: 78.3rem;
   max-width: 113.7rem;
-  margin: 0 auto 10.0rem;
+  margin: 4.0rem auto 10.0rem;
 
   grid-area: "content";
+  overflow-y: auto;
+
+  a {
+    margin-top: 4.0rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+    color: ${({ theme }) => theme.COLORS.PINK};
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
   
   > form {
-    overflow-y: auto;
 
     h1 {
       font-size: 3.2rem;

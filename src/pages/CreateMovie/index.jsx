@@ -12,9 +12,9 @@ export function CreateMovie() {
 
       <Header />
 
-      <a href="#"><FiArrowLeft /> Voltar</a>
-
       <Content>
+        <a href="#"><FiArrowLeft /> Voltar</a>
+
         <form>
           <h1>Novo filme</h1>
 

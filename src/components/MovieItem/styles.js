@@ -21,6 +21,7 @@ export const Container = styled.div`
 
     background-color: transparent;
     border: 0;
+    outline: none;
 
     color: ${({ theme }) => theme.COLORS.WHITE_100};
   }
