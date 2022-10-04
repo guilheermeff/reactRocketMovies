@@ -1,4 +1,4 @@
-import { Container, Content } from "./styles";
+import { Container, Content, Tags } from "./styles";
 import { Header } from '../../components/Header';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Avatar } from '../../components/Avatar';
@@ -17,7 +17,6 @@ export function Details() {
         <header>
           <h1>Interestellar</h1>
           <div>
-            <Avatar />
             <span>Por Guilherme Fernandes</span>
           </div>
           <div>
@@ -26,11 +25,11 @@ export function Details() {
           </div>
         </header>
 
-        <div>
+        <Tags>
           <Tag title="Ficção Científica" />
           <Tag title="Drama" />
           <Tag title="Família" />
-        </div>
+        </Tags>
 
         <p>
           Pragas nas colheitas fizeram a civilização humana 
