@@ -1,17 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.div`	
-	width: 186px;
-	height: 186px;
-
-	position: relative;
-	margin: -86px auto 32px;
+export const Container = styled.figure`	
 
 	> img {  
 		border-radius: 50%;
-
-		width: 186px;
-		height: 186px;
 	}
 
 	> label {

@@ -29,6 +29,19 @@ export const Form = styled.form`
 
   margin: 0 auto;
 
+  > figure {
+    position: relative;
+	  margin: -86px auto 32px;
+
+    width: 186px;
+	  height: 186px;
+
+    img {
+      width: 186px;
+		  height: 186px;
+    }
+  }
+
   div:nth-child(3) {
     margin-bottom: 1.6rem;
   }
