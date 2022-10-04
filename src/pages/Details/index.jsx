@@ -17,6 +17,7 @@ export function Details() {
         <header>
           <h1>Interestellar</h1>
           <div>
+            <Avatar />
             <span>Por Guilherme Fernandes</span>
           </div>
           <div>
