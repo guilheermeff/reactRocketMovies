@@ -6,15 +6,17 @@ export const Container = styled.div`
   height: 100vh;
     
   display: grid;
-  grid-template-columns: 62.5rem auto;
+  grid-template-columns: auto 62.5rem;
   grid-template-areas: 
-    "login"
     "background"
+    "login"
   ;
 
 `;
 
 export const Form = styled.form`
+  grid-area: "login";
+  
   width: 100%;
   max-width: 34.0rem;
   margin: auto;

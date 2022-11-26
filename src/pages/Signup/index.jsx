@@ -1,12 +1,15 @@
 import { Container, Form, Background, Return } from './styles';
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
-import { FiMail, FiLock, FiArrowLeft, FiUser } from 'react-icons/fi'
+import { FiMail, FiLock, FiArrowLeft, FiUser } from 'react-icons/fi';
+
+import { Link } from 'react-router-dom';
 
 
 export function SignUp() {
   return(
     <Container>
+      <Background />
       <Form>
         <div>
           <h1>RocketMovies</h1>
@@ -37,10 +40,9 @@ export function SignUp() {
 
         <Return>
           <FiArrowLeft />
-          <a href="#">Voltar para o login</a>
+          <Link to={-1}>Voltar para o login</Link>
         </Return>
       </Form>
-      <Background />
     </Container>
   )
 }
